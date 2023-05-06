@@ -1,0 +1,9 @@
+.address{
+    font-size: 1.8em;
+}
+
+@media (max-width: 600px){
+    .address{
+        font-size: 1.2em;
+    }
+}

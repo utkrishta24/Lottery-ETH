@@ -1,0 +1,19 @@
+.Loader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.Loader img{
+    border-radius: 100%;
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce {
+    0%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(.8);
+    }
+}
